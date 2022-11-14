@@ -37,8 +37,8 @@ class Messenger{
     }
 
     show_history(){
-        let p = document.querySelector('p');
-        this.history.forEach(el=> p.innerHTML+=el.toHtml())
+        let rightSec = document.querySelector('.right-sect');
+        this.history.forEach(el=> rightSec.innerHTML+=el.toHtml())
     }
     
 }
